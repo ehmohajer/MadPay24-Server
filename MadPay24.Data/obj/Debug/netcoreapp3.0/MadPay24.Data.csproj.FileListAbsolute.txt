@@ -1,0 +1,8 @@
+I:\WebSite Project\MadPay24\MadPay24.Data\bin\Debug\netcoreapp3.0\MadPay24.Data.deps.json
+I:\WebSite Project\MadPay24\MadPay24.Data\bin\Debug\netcoreapp3.0\MadPay24.Data.dll
+I:\WebSite Project\MadPay24\MadPay24.Data\bin\Debug\netcoreapp3.0\MadPay24.Data.pdb
+I:\WebSite Project\MadPay24\MadPay24.Data\obj\Debug\netcoreapp3.0\MadPay24.Data.csprojAssemblyReference.cache
+I:\WebSite Project\MadPay24\MadPay24.Data\obj\Debug\netcoreapp3.0\MadPay24.Data.AssemblyInfoInputs.cache
+I:\WebSite Project\MadPay24\MadPay24.Data\obj\Debug\netcoreapp3.0\MadPay24.Data.AssemblyInfo.cs
+I:\WebSite Project\MadPay24\MadPay24.Data\obj\Debug\netcoreapp3.0\MadPay24.Data.dll
+I:\WebSite Project\MadPay24\MadPay24.Data\obj\Debug\netcoreapp3.0\MadPay24.Data.pdb

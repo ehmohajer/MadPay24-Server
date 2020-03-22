@@ -1,0 +1,11 @@
+.vs
+MadPay24.Common\bin
+MadPay24.Common\obj
+MadPay24.Data\bin
+MadPay24.Data\obj
+MadPay24.presentation\bin
+MadPay24.presentation\obj
+MadPay24.Repo\bin
+MadPay24.Repo\obj
+MadPay24.Services\bin
+MadPay24.Services\obj

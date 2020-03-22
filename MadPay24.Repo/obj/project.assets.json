@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MadPay24.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "MadPay24.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MadPay24.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MadPay24.Common.dll": {}
+        }
+      },
+      "MadPay24.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/MadPay24.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MadPay24.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MadPay24.Common/1.0.0": {
+      "type": "project",
+      "path": "../MadPay24.Common/MadPay24.Common.csproj",
+      "msbuildProject": "../MadPay24.Common/MadPay24.Common.csproj"
+    },
+    "MadPay24.Data/1.0.0": {
+      "type": "project",
+      "path": "../MadPay24.Data/MadPay24.Data.csproj",
+      "msbuildProject": "../MadPay24.Data/MadPay24.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "MadPay24.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TB3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "I:\\WebSite Project\\MadPay24\\MadPay24.Repo\\MadPay24.Repo.csproj",
+      "projectName": "MadPay24.Repo",
+      "projectPath": "I:\\WebSite Project\\MadPay24\\MadPay24.Repo\\MadPay24.Repo.csproj",
+      "packagesPath": "C:\\Users\\TB3\\.nuget\\packages\\",
+      "outputPath": "I:\\WebSite Project\\MadPay24\\MadPay24.Repo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\TB3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "I:\\WebSite Project\\MadPay24\\MadPay24.Common\\MadPay24.Common.csproj": {
+              "projectPath": "I:\\WebSite Project\\MadPay24\\MadPay24.Common\\MadPay24.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
