@@ -13,7 +13,7 @@ namespace MadPay24.Data.Models
             DateCreated = DateTime.Now;
             DateModified = DateTime.Now;
         }
-`       [Required]
+        [Required]
         public string Name { get; set; }
         [Required]
         public string UserName { get; set; }
