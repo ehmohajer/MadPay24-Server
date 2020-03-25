@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MadPay24.Data.Infrastructure
+namespace MadPay24.Repo.Infrastructure
 {
     public interface IRepository<TEntity> where TEntity:class
     {

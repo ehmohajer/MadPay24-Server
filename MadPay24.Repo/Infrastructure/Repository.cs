@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MadPay24.Data.Infrastructure
+namespace MadPay24.Repo.Infrastructure
 {
-    public class Repository<TEntity>:IRepository<TEntity>,IDisposable where TEntity:class
+    public abstract class Repository<TEntity>:IRepository<TEntity>,IDisposable where TEntity:class
     {
         
 
@@ -22,6 +22,7 @@ namespace MadPay24.Data.Infrastructure
             _dbSet = _db.Set<TEntity>();
         }
         #endregion
+
         #region normal 
         public void Insert(TEntity entity)
         {

@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MadPay24.Repo.Repositories.Interface;
+using MadPay24.Repo.Repositories.Repo;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MadPay24.Data.Infrastructure
+namespace MadPay24.Repo.Infrastructure
 {
     public class UnitOfWork<TContext> : IUnitOfWork<TContext>, IDisposable where TContext : DbContext,new()
     {
@@ -18,12 +20,26 @@ namespace MadPay24.Data.Infrastructure
             _db.SaveChanges();
         }
 
-        public Task<int> SaveAsync()
+        public async Task<int> SaveAsync()
         {
-           return  _db.SaveChangesAsync();
+           return await _db.SaveChangesAsync();
         }
 
+        //-----------TEntitity Repository Register--------
+        private IUserRepository userRepository;
+        public IUserRepository UserRepository
+        {
+            get
+            {
+                if (userRepository == null)
+                    userRepository = new UserRepository(_db);
+                return userRepository;
+            }
+        }
+
+        //-----------Dispose--------
         private bool disposed=false;
+
         protected virtual void Dispose(bool disposing)
         {
             if (!disposed)

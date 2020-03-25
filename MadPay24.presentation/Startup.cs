@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MadPay24.Data.DatabaseContext;
+using MadPay24.Repo.Infrastructure;
+using MadPay24.Services.Auth.Interface;
+using MadPay24.Services.Auth.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +31,9 @@ namespace MadPay24.presentation
         {
             services.AddControllers();
             services.AddCors();
+
+            services.AddScoped<IUnitOfWork<MadpayDbContext>, UnitOfWork<MadpayDbContext>>();
+            services.AddScoped<IAuthService, AuthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

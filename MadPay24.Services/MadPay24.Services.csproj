@@ -6,6 +6,7 @@
     <ApplicationIcon />
     <StartupObject />
   </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\MadPay24.Repo\MadPay24.Repo.csproj" />
   </ItemGroup>

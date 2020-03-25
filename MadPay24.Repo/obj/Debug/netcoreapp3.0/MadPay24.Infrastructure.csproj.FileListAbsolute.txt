@@ -1,0 +1,13 @@
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Infrastructure.deps.json
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Infrastructure.dll
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Infrastructure.pdb
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Common.dll
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Data.dll
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Common.pdb
+I:\WebSite Project\MadPay24\MadPay24.Repo\bin\Debug\netcoreapp3.0\MadPay24.Data.pdb
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.csprojAssemblyReference.cache
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.AssemblyInfoInputs.cache
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.AssemblyInfo.cs
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.csproj.CopyComplete
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.dll
+I:\WebSite Project\MadPay24\MadPay24.Repo\obj\Debug\netcoreapp3.0\MadPay24.Infrastructure.pdb
