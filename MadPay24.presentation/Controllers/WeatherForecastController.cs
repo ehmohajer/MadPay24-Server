@@ -7,8 +7,7 @@ using MadPay24.Repo.Infrastructure;
 using MadPay24.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MadPay24.Services.Auth.Interface;
-using MadPay24.Services.Auth.Service;
+using MadPay24.Services.Site.Admin.Auth.Interface;
 
 namespace MadPay24.presentation.Controllers
 {
@@ -52,8 +51,7 @@ namespace MadPay24.presentation.Controllers
             {
                 Address="iran",
                 City="mashhad",
-                DateOfBirth="",
-                Gender= "man",
+                Gender= true,
                 IsActive= false,
                 Name= "ehsan",
                 PhoneNumber= "",
