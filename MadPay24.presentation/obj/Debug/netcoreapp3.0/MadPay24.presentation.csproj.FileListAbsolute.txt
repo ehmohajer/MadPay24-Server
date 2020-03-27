@@ -135,4 +135,7 @@ I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Micros
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 I:\WebSite Project\MadPay24\MadPay24.presentation\obj\Debug\netcoreapp3.0\MadPay24.presentation.MvcApplicationPartsAssemblyInfo.cache

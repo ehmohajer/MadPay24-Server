@@ -11,6 +11,7 @@ using MadPay24.Data.Dtos.Site.Admin;
 using MadPay24.Data.Models;
 using MadPay24.Repo.Infrastructure;
 using MadPay24.Services.Site.Admin.Auth.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +19,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace MadPay24.presentation.Controllers.Site.Admin
 {
+    [Authorize]
     [Route("site/admin/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
@@ -33,6 +35,7 @@ namespace MadPay24.presentation.Controllers.Site.Admin
             this._configuration = configuration;
         }
 
+        [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
@@ -63,6 +66,7 @@ namespace MadPay24.presentation.Controllers.Site.Admin
             return StatusCode(201);
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
@@ -104,5 +108,34 @@ namespace MadPay24.presentation.Controllers.Site.Admin
             }) ;
         }
 
+        [AllowAnonymous]
+        [HttpGet("getValue")]
+        public async Task<IActionResult> GetValue()
+        {
+            
+                return Ok(new ReturnMessage()
+                {
+                    Status = true,
+                    Title = "ok",
+                    Message = "GetValue"
+                });
+            
+            
+        }
+
+        
+        [HttpGet("getValues")]
+        public async Task<IActionResult> GetValues()
+        {
+
+            return Ok(new ReturnMessage()
+            {
+                Status = true,
+                Title = "ok",
+                Message = "GetValues"
+            });
+
+
+        }
     }
 }
