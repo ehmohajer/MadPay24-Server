@@ -41,6 +41,8 @@ namespace MadPay24.presentation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+
             services.AddCors();
 
             services.AddScoped<IUnitOfWork<MadpayDbContext>, UnitOfWork<MadpayDbContext>>();
