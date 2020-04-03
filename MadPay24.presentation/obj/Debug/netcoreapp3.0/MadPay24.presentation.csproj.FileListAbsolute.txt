@@ -138,3 +138,16 @@ I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\System
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
 I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.DotNet.InternalAbstractions.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Microsoft.Extensions.PlatformAbstractions.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\Namotion.Reflection.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NJsonSchema.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NSwag.Annotations.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NSwag.AspNetCore.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NSwag.Core.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NSwag.Generation.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\bin\Debug\netcoreapp3.0\NSwag.Generation.AspNetCore.dll
+I:\WebSite Project\MadPay24\MadPay24.presentation\obj\Debug\netcoreapp3.0\MadPay24.presentation.MvcApplicationPartsAssemblyInfo.cs
+I:\WebSite Project\MadPay24\MadPay24.presentation\obj\Debug\netcoreapp3.0\MadPay24.presentation.MvcApplicationPartsAssemblyInfo.cache

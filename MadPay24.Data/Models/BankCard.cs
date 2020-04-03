@@ -15,20 +15,31 @@ namespace MadPay24.Data.Models
             DateModified = DateTime.Now;
         }
         [Required]
+        [StringLength(50)]
         public string BankName { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string OwnerName { get; set; }
+
+        [StringLength(30, MinimumLength = 0)]
         public string Shaba { get; set; }
+
         [Required]
-        [StringLength(16, MinimumLength = 16)]
+        [StringLength(16, MinimumLength = 0)]
         public string CardNumber { get; set; }
+
         [Required]
-        [StringLength(2,MinimumLength =2)]
+        [StringLength(2,MinimumLength =0)]
         public string ExpireDateMonth { get; set; }
+
         [Required]
-        [StringLength(2, MinimumLength = 2)]
+        [StringLength(2, MinimumLength = 0)]
         public string ExpireDateYear { get; set; }
 
         [Required]
         public string UserId { get; set; }
+
         [ForeignKey("UserId")]
         public User User { get; set; }
     }

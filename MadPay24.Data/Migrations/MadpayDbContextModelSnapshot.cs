@@ -26,7 +26,8 @@ namespace MadPay24.Data.Migrations
 
                     b.Property<string>("BankName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("CardNumber")
                         .IsRequired()
@@ -49,8 +50,14 @@ namespace MadPay24.Data.Migrations
                         .HasColumnType("nvarchar(2)")
                         .HasMaxLength(2);
 
+                    b.Property<string>("OwnerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
+
                     b.Property<string>("Shaba")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(26)")
+                        .HasMaxLength(26);
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -69,7 +76,8 @@ namespace MadPay24.Data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Alt")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(500)")
+                        .HasMaxLength(500);
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
@@ -78,14 +86,16 @@ namespace MadPay24.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(500)")
+                        .HasMaxLength(500);
 
                     b.Property<bool>("IsMain")
                         .HasColumnType("bit");
 
                     b.Property<string>("Url")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(1000)")
+                        .HasMaxLength(1000);
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -105,10 +115,12 @@ namespace MadPay24.Data.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(500)")
+                        .HasMaxLength(500);
 
                     b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
@@ -125,9 +137,13 @@ namespace MadPay24.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<DateTime>("LastActive")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<byte[]>("PasswordHash")
                         .IsRequired()
@@ -139,14 +155,16 @@ namespace MadPay24.Data.Migrations
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(20)")
+                        .HasMaxLength(20);
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.HasKey("Id");
 

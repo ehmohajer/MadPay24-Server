@@ -22,6 +22,7 @@ namespace MadPay24.presentation.Controllers.Site.Admin
     [Authorize]
     [Route("site/admin/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName ="Site")]
     public class AuthController : ControllerBase
     {
         private readonly IUnitOfWork<MadpayDbContext> _db;
@@ -123,8 +124,6 @@ namespace MadPay24.presentation.Controllers.Site.Admin
                 Title = "ok",
                 Message = "GetValue"
             });
-
-
         }
 
 
